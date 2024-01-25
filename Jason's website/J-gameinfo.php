@@ -26,11 +26,11 @@
      <section id="jbgtxt">
         <h4>Bounce Goal</h4>
      <p>
-     De doel van het spel is om te probeer zo veel mogelijk punten te halen. <br>
+     De doel van het spel is om te proberen zoveel mogelijk punten te halen. <br>
      <br>
-     Met elke bounce tegen de muren wordt de ball sneller. <br>
+     Met elke bounce tegen de muren wordt de bal sneller. <br>
      <br>
-     Als de ball de onderkant raakt is het game over.
+     Als de bal de onderkant raakt is het game over.
      </p>
      </section>
 </main>
