@@ -1,0 +1,18 @@
+/* Auteur: Jason Villerius */
+main {
+    margin: 0;
+    display: flex;
+    height: 80vh;
+    align-items: center;
+    font-family: "Courier New", monospace;
+    font-size: xx-large;
+    color: royalblue;
+    flex-direction: column;
+    justify-content: center;
+}
+#jhp{
+    font-family: "Courier New", monospace;
+    font-size: xxx-large;
+    color: royalblue;
+    padding: 10px;
+}

@@ -8,8 +8,8 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
     <link rel="stylesheet" href="./include/styleMenu.css">
     <link rel="stylesheet" href="stylesheets.css">
-    <link rel="stylesheet" href="jport.css">
-    <title>Jason's Portfolio</title>
+    <link rel="stylesheet" href="jhomepage.css">
+    <title>Jason's Homepage</title>
 </head>
 <body>
 <?php
@@ -17,15 +17,14 @@
 ?>
     <!---------Auteur: Jason Villerius---------->
 <main>
-<section id="jport-txt">
-    <h1 id="jport-h1">Jason Villerius</h1>
-    <section id="jport-p">
-        <p>Hallo mijn is naam Jason Villerius. Ik ben 16 jaar oud en studeer nu op het Techniek College Rotterdam. Hier volg ik de opleiding Software Developer.
-        Op school leer ik websites en games maken, code schrijven, database en nog veel meer.</p>
-        <p>In mijn vrije tijd zit ik thuis ook veel achter de PC of laptop. Ik game graag of luister naar muziek. Verder speel ik graag online games met vrienden.</p> 
-    </section>
-</section>
-<img src="./img/jason-foto.jpg" alt="jason" width="396" height="528">
+    <h2 id="jhp">Jason's Homepage</h2>
+<ul>
+            <li><a href="J-doel.php">Jason's goede doel</a></li>
+            <li><a href="J-doelinfo.php">Jason's doel info</a></li>
+            <li><a href="J-port.php">Jason's Portfolio</a></li>
+            <li><a href="J-game.php">Bounce</a></li>
+            <li><a href="J-gameinfo.php">Info Bounce</a></li>
+        </ul>
 </main>
 <?php
     include ("./include/footer.php");
