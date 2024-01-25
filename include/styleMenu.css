@@ -1,0 +1,152 @@
+/* Auteur: Bradley Zandgrond */
+* 
+{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body 
+{
+    background: #131313;
+    margin: 0;
+    font-family: "Montserrat", sans-serif;
+}
+    /*Logo position/size*/
+#logo 
+{
+    margin-left: 30px;
+    float: left;
+    height: 69px;
+    width: auto;
+    margin-right: 10px;
+}
+    /*Include caret-down and pipe*/
+.logo-container 
+{
+    display: inline-flex;
+    align-items: center;
+    padding: 10px;
+}
+
+.fa-caret-down 
+{
+    font-size: 20px;
+}
+    /*Navbar styles*/
+.navbar 
+{
+    display: flex;
+    overflow: hidden;
+    background-color: #191919;
+    font-family: "Montserrat", sans-serif;
+}
+    /*Navbar link styles*/
+.navbar a 
+{
+    text-decoration: none;
+    color: #edf0f1;
+    font-weight: 500;
+    font-size: 25px;
+    padding: 14px 16px;
+    transition: all 0.3s ease 0s;
+}
+
+.fa-user
+{
+    color: #ffffff;
+    font-size: 17px;
+    cursor: pointer;
+    border-width: 0px;
+    border-radius: 50%;
+    padding: 0.35rem 0.35rem;
+    background-color: #191919;
+}
+
+/* Button styles */
+#Btn
+{
+    font-family: "Montserrat", sans-serif;
+    color: #edf0f1;
+    font-size: 16px;
+    border: none;
+    font-weight: bold;
+    background-color: #1561F0;
+    border-radius: 0.5rem;
+    padding: 12px 14px;
+    cursor: pointer;
+    margin-left: 1rem;
+}
+
+.nav_links .buttons-container
+{
+    display: inline-flex;
+    align-items: center;
+}
+
+.buttons-container
+{
+    margin-top: 25px;
+    margin-left: 40rem;
+}
+
+.nav_links 
+{
+    display: inline-flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+    list-style: none;
+    padding: 10px;
+    margin: 0;
+}
+    /*text style*/ 
+li, a 
+{
+    font-weight: 500;
+    font-size: 30px;
+    color: #edf0f1;
+    text-decoration: none;
+}
+    /*nav links transition*/
+.nav_links li a 
+{
+    transition: all 0.3s ease 0s;
+}
+    /*nav links hover effect*/
+.nav_links li a:hover 
+{
+    color: #0088a9;
+}
+    /*footer posision*/
+footer 
+{
+    background-color: #191919;
+    color: #edf0f1;
+    padding: 5px;
+    text-align: center;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+    /*footer content placement*/
+.footer-container 
+{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+    /* footer styles*/
+.social-icons a 
+{
+    color: #edf0f1;
+    font-size: 24px;
+    margin: 0 10px;
+    text-decoration: none;
+}
+    /*social icons effects*/
+.social-icons a:hover 
+{
+    color: #0088a9;
+    cursor: pointer;
+}

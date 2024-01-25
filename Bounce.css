@@ -1,0 +1,54 @@
+/* Auteur: Jason Villerius */
+main {
+  margin: 0;
+  display: flex;
+  justify-content: space-evenly;
+  height: 80vh;
+  align-items: center;
+  flex-direction: column;
+  }
+  #jbg{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  #jbgc{
+    font-family: "Courier New", monospace;
+    font-size: xx-large;
+    color: royalblue;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  #bounce{
+    font-family: "Courier New", monospace;
+    font-size: xxx-large;
+    color: royalblue;
+    padding: 10px;
+  }
+
+  #game-container {
+    position: relative;
+    width: 400px;
+    height: 300px;
+    border: 2px solid #333;
+    overflow: hidden;
+    background-color: #f0f0f0;
+  }
+  
+  #ball {
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    background-color: #db3434;
+    border-radius: 50%;
+  }
+  
+  #paddle {
+    position: absolute;
+    bottom: 0;
+    width: 80px;
+    height: 10px;
+    background-color: #2ecc71;
+  }
+  
